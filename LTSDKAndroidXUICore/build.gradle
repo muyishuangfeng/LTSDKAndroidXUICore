@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven' //必加
+group='com.github.muyishuangfeng' //必加,com.github.<用户名>(也就是你GtiHub上的地址)
 
 android {
     compileSdkVersion 29
